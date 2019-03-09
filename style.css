@@ -120,5 +120,7 @@ ul.scnd {
 }
 
 a {
+  color: black;
   font-weight: normal;
+  text-decoration: none;
 }
