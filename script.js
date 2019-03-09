@@ -48,7 +48,7 @@ function writeStaff()
     newHtml += "</p>";
   }
 
-  document.getElementById("staff").innerHTML = newHtml;
+  document.getElementById("content").innerHTML = newHtml;
 }
 
 
