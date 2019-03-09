@@ -5,6 +5,7 @@
 body {
   background-color: #ccc;
   padding: 50px 300px 50px 300px;
+  overflow: scroll;
 }
 
 /* Style the header */
