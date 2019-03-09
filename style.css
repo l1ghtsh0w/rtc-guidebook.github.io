@@ -97,9 +97,14 @@ p {
 }
 
 ul {
-  list-style-type: circle;
   list-style-position: outside;
   text-indent: 0px;
+}
+ul.frst {
+  list-style-type: disc;
+}
+ul.scnd {
+  list-style-type: circle;
 }
 
 b {
