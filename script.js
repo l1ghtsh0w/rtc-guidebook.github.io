@@ -42,8 +42,8 @@ function writeStaff()
     newHtml += "<p class='staff'><span class='job'>" + staff[i] + "</span><br/>";
     for (j=0; j<memLen; j++)
     {
-      newHtml += "<span class='name'>" + staff[i+1][j][0] + "</span><br/>";
-      newHtml += "<span class='profile'><a href='" + staff[i+1][j][1] + "'>Profile</a></span><br/>";
+      newHtml += "<span class='name'><a href='" + staff[i+1][j][1] + "'>" + staff[i+1][j][0] + "</a></span><br/>";
+      // newHtml += "<span class='profile'><a href='" + staff[i+1][j][1] + "'>Profile</a></span><br/>";
     }
     newHtml += "</p>";
   }
