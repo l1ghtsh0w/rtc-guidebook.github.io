@@ -37,6 +37,11 @@ function writeStaff()
   var i, j;
   var newHtml = "";
 
+  newHtml += "<section class='modern'>";
+  newHtml += "<div class='title big center'>Staff</div>";
+  newHtml += "<hr width='50%' />";
+  newHtml += "<p>Below is a list of the staff at RTC. You can click any of there names for a link to their profile in SL.</p>";
+
   for (i=0; i<staffLen; i+=2)
   {
     var memLen = staff[i+1].length;

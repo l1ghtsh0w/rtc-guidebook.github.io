@@ -90,7 +90,7 @@ body {
 }
 
 .modern {
-  font-family: ModernSans;
+  font-family: Comfortaa;
 }
 
 p {
@@ -118,4 +118,8 @@ b {
 
 sup {
   font-size: 12px;
+}
+
+.job {
+  font-weight: bold;
 }
