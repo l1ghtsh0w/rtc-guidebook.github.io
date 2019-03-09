@@ -2,22 +2,42 @@
   box-sizing: border-box;
 }
 
+a {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+
 body {
   background-color: #ccc;
-  padding: 50px 300px 50px 300px;
   overflow: scroll;
+  padding: 50px 300px 50px 300px;
+}
+
+p {
+  text-indent: 25px;
+}
+p.staff {
+  text-indent: 0px;
+}
+
+span.job {
+  text-indent: 25px;
+  font-weight: bold;
+}
+span.name {
+  padding-left: 45px;
 }
 
 /* Style the header */
 .header {
-  font-family: USN-Stencil;
   background-color: #efefef;
-  padding: 10px;
-  margin-bottom: 2%;
-  text-align: center;
+  font-family: USN-Stencil;
   font-size: 40px;;
+  margin-bottom: 2%;
+  padding: 10px;
+  text-align: center;
 }
-
 .subheader {
   font-family: Bombard;
   font-size: 27px;
@@ -27,27 +47,25 @@ body {
   float: left;
   padding: 10px;
 }
-
 /* Left  column */
 .column.left {
   background-color: #f1f1f1;
-  text-align: center;
-  margin-right: 2%;
-  width: 20%;
   height: auto;
+  margin-right: 2%;
+  text-align: center;
+  width: 20%;
 }
-
 /* Right column */
 .column.right {
-  font-family: ModernSans;
   background-color: #f1f1f1;
+  font-family: ModernSans;
   width: 78%;
 }
 
 .row:after {
+  clear: both;
   content: "";
   display: table;
-  clear: both;
 }
 
 @media (max-width: 600px) {
@@ -68,21 +86,21 @@ body {
 }
 
 .options {
-  font-family: Quicksand;
-  padding-top: 0px;
-  font-size: 16px;
-  line-height: 25px;
-  font-weight: bold;
   cursor: pointer;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-top: 0px;
 }
 
 #content {
   font-family: ModernSans;
+  font-size: 18px;
   font-weight: normal;
-  text-align: justify;
   padding-left: 25px;
   padding-right: 25px;
-  font-size: 18px;
+  text-align: justify;
 }
 
 .center {
@@ -93,15 +111,6 @@ body {
   font-family: Quicksand;
 }
 
-p {
-  text-indent: 25px;
-}
-p.staff {
-  text-indent: 0px;
-}
-span.name {
-  padding-left: 20px;
-}
 
 ul {
   list-style-position: outside;
@@ -113,14 +122,4 @@ ul.frst {
 ul.scnd {
   list-style-type: circle;
   padding-left: 20px;
-}
-
-.job {
-  font-weight: bold;
-}
-
-a {
-  color: black;
-  font-weight: normal;
-  text-decoration: none;
 }
