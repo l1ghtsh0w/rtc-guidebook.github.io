@@ -34,16 +34,16 @@ var staff = [
 function writeStaff()
 {
   var staffLen = staff.length;
-  var i, j, newHtml;
+  var i, j;
+  var newHtml = "";
 
   for (i=0; i<staffLen; i+=2)
   {
     var memLen = staff[i+1].length;
-    newHtml += "<p class='staff'><span class='job'>" + staff[i] + "</span><br/>";
+    newHtml = newHtml + "<p class='staff'><span class='job'>" + staff[i] + "</span><br/>";
     for (j=0; j<memLen; j++)
     {
       newHtml += "<span class='name'><a href='" + staff[i+1][j][1] + "'>" + staff[i+1][j][0] + "</a></span><br/>";
-      // newHtml += "<span class='profile'><a href='" + staff[i+1][j][1] + "'>Profile</a></span><br/>";
     }
     newHtml += "</p>";
   }
