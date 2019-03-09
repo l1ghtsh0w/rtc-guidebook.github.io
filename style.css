@@ -96,6 +96,9 @@ body {
 p {
   text-indent: 25px;
 }
+p.staff {
+  text-indent: 0px;
+}
 
 ul {
   list-style-position: outside;

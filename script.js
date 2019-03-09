@@ -39,11 +39,11 @@ function writeStaff()
   for (i=0; i<staffLen; i+=2)
   {
     var memLen = staff[i+1].length;
-    newHtml += "<p><span class='job'>" + staff[i] + "</span><br/>";
+    newHtml += "<p class='staff'><span class='job'>" + staff[i] + "</span><br/>";
     for (j=0; j<memLen; j++)
     {
       newHtml += "<span class='name'>" + staff[i+1][j][0] + "</span><br/>";
-      newHtml += "<span class='profile'>" + staff[i+1][j][1] + "</span><br/>";
+      newHtml += "<span class='profile'><a href='" + staff[i+1][j][1] + "'>Profile</a></span><br/>";
     }
     newHtml += "</p>";
   }
