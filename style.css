@@ -98,7 +98,9 @@ p {
 }
 p.staff {
   text-indent: 0px;
-  padding-left: 25px;
+}
+span.name {
+  padding-left: 15px;
 }
 
 ul {
