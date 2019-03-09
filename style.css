@@ -32,8 +32,6 @@ body {
 .column.left {
   background-color: #f1f1f1;
   text-align: center;
-  max-width: 20%;
-  min-width: 20%;
   margin-right: 2%;
   width: 20%;
   height: auto;
@@ -43,8 +41,6 @@ body {
 .column.right {
   font-family: ModernSans;
   background-color: #f1f1f1;
-  max-width: 78%;
-  min-widht: 78%;
   width: 78%;
 }
 
@@ -110,7 +106,7 @@ ul.frst {
 }
 ul.scnd {
   list-style-type: circle;
-  padding-left: -10px;
+  text-indent: -10px;
 }
 
 b {
