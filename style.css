@@ -105,6 +105,7 @@ ul.frst {
 }
 ul.scnd {
   list-style-type: circle;
+  padding-left: -10px;
 }
 
 b {
