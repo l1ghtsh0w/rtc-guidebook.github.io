@@ -53,6 +53,7 @@ function writeStaff()
     newHtml += "</p>";
   }
 
+  newHtml += "</section>";
   document.getElementById("content").innerHTML = newHtml;
 }
 

@@ -78,7 +78,7 @@ body {
 
 #content {
   font-family: ModernSans;
-  font-weight: bold;
+  font-weight: normal;
   text-align: justify;
   padding-left: 25px;
   padding-right: 25px;
@@ -97,11 +97,8 @@ p {
   text-indent: 25px;
 }
 p.staff {
-  text-indent: 25px;
-}
-
-.name {
-  text-indent: 35px;
+  text-indent: 0px;
+  padding-left: 25px;
 }
 
 ul {
