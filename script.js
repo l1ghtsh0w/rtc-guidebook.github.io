@@ -60,9 +60,9 @@ function writeStaff()
 
 function changeContent(file)
 {
-  file = "pages/" + file + ".html";
+  fileNew = "pages/" + file + ".html";
   var rawFile = new XMLHttpRequest();
-  rawFile.open("GET", file, false);
+  rawFile.open("GET", fileNew, false);
   rawFile.onreadystatechange = function ()
   {
     if (rawFile.readyState === 4)
@@ -75,4 +75,9 @@ function changeContent(file)
     }
   }
   rawFile.send(null);
+
+  if (file == "staff")
+  {
+    writeStaff();
+  }
 }
