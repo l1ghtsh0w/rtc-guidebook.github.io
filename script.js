@@ -37,7 +37,7 @@ var terms = [
   ["NSTC", "Naval Service Training Command"],
   ["RTC", "Recruit Training Command"],
   ["RDC", "Recruit Division Commander"],
-  ["PQS", "Personal Qualification Standards"]
+  ["PQS", "Personal Qualification Standard"]
 ];
 
 function writeTerms()
