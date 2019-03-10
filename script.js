@@ -31,17 +31,32 @@ var staff = [
   ]
 ]
 
+var terms = [
+  ["IC", "In-Character"],
+  ["OOC", "Out-Of-Character"],
+  ["NSTC", "Naval Service Training Command"],
+  ["RTC", "Recruit Training Command"],
+  ["RDC", "Recruit Division Commander"],
+  ["PQS", "Personal Qualification Standards"]
+];
+
+function writeTerms()
+{
+  var termLen = terms.length;
+  var i;
+  var newHtml = "";
+  for (i=0; i<termLen; i++)
+  {
+    newHtml += "<p><b>" + terms[i][0] + "</b> - " + terms[i][1] + "</p>";
+  }
+  document.getElementById("terms").innerHTML = newHtml;
+}
+
 function writeStaff()
 {
   var staffLen = staff.length;
   var i, j;
   var newHtml = "";
-  /*
-  newHtml += "<section class='modern'>";
-  newHtml += "<div class='title big center'>Staff</div>";
-  newHtml += "<hr width='50%' />";
-  newHtml += "<p>Below is a list of the staff at RTC. You can click any of there names for a link to their profile in SL.</p>";
-  */
   for (i=0; i<staffLen; i+=2)
   {
     var memLen = staff[i+1].length;
@@ -52,8 +67,6 @@ function writeStaff()
     }
     newHtml += "</p>";
   }
-
-  newHtml += "</section>";
   document.getElementById("staff").innerHTML = newHtml;
 }
 
@@ -79,5 +92,9 @@ function changeContent(file)
   if (file == "staff")
   {
     writeStaff();
+  }
+  if (file == "terms")
+  {
+    writeTerms();
   }
 }
