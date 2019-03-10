@@ -23,6 +23,7 @@ p {
 }
 p.policy {
   padding-left: 20px;
+  padding-top: -10px;
 }
 
 span.job {
