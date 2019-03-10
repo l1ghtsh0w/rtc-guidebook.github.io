@@ -49,7 +49,6 @@ function writeTerms()
   {
     newHtml += "<p><b>" + terms[i][0] + "</b> - " + terms[i][1] + "</p>";
   }
-  alert(newHtml);
   document.getElementById("terms").innerHTML = newHtml;
 }
 
