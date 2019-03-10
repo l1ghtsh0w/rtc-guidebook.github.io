@@ -21,6 +21,9 @@ hr {
 p {
   text-indent: 25px;
 }
+p.policy {
+  padding-left: 20px;
+}
 
 span.job {
   font-weight: bold;
@@ -28,6 +31,7 @@ span.job {
 span.name {
   padding-left: 45px;
 }
+
 
 /* Style the header */
 .header {
