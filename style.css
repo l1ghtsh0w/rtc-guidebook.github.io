@@ -33,14 +33,14 @@ span.name {
 .header {
   background-color: #efefef;
   font-family: USN-Stencil;
-  font-size: 60px;;
+  font-size: 50px;;
   margin-bottom: 2%;
   padding: 10px;
   text-align: center;
 }
 .subheader {
   font-family: Bombard;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .column {
