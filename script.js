@@ -32,6 +32,7 @@ var staff = [
 ]
 
 var terms = [
+  ["USNSL", "US Navy in SL"],
   ["IC", "In-Character"],
   ["OOC", "Out-Of-Character"],
   ["NSTC", "Naval Service Training Command"],
