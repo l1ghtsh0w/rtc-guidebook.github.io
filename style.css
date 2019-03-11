@@ -123,3 +123,12 @@ ul.scnd {
   list-style-type: circle;
   padding-left: 20px;
 }
+
+.design {
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
+
+.scalable-wrapper {
+  resize: both;
+}
