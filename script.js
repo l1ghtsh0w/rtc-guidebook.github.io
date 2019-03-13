@@ -53,7 +53,7 @@ function writeTerms()
   var newHtml = "";
   for (i=0; i<termLen; i++)
   {
-    newHtml += "<p><b>" + terms[i][0] + "</b> - " + terms[i][1] + "</p>";
+    newHtml += "<p><span class='bold'>" + terms[i][0] + "</span> - " + terms[i][1] + "</p>";
   }
   document.getElementById("terms").innerHTML = newHtml;
 }
@@ -66,7 +66,7 @@ function writeStaff()
   for (i=0; i<staffLen; i+=2)
   {
     var memLen = staff[i+1].length;
-    newHtml = newHtml + "<p class='staff'><span class='job'>" + staff[i] + "</span><br/>";
+    newHtml = newHtml + "<p class='staff'><span class='bold'>" + staff[i] + "</span><br/>";
     for (j=0; j<memLen; j++)
     {
       newHtml += "<span class='name'><a href='" + staff[i+1][j][1] + "'>" + staff[i+1][j][0] + "</a></span><br/>";
