@@ -16,10 +16,12 @@ body {
 
 div.quote {
   background-color: #ddd;
+  border-radius: 5px;
   font-style: italic;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
+  text-align: center;
   width: 50%;
 }
 
