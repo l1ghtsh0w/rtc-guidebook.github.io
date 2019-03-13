@@ -21,7 +21,7 @@ div.quote {
   font-style: italic;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
+  padding: 10px 5px 10px 5px;
   text-align: center;
   width: 50%;
 }
