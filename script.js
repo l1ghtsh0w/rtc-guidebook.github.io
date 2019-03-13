@@ -11,6 +11,7 @@ var staff = [
   ],
   "PHYSICAL TRAINING AND SWIM COACH",
   [
+    ["CAPT Alli Eberdene", "secondlife:///app/agent/9ea0b3c7-6ea3-4438-848b-f5653c779720/about"],
     ["LTJG Antonio Tophat", "secondlife:///app/agent/d25cd2ce-3703-4ae2-89c2-9492a63b49b4/about"]
   ],
   "MARKSMANSHIP RANGE MASTER",
@@ -24,8 +25,10 @@ var staff = [
   ],
   "INSTRUCTORS",
   [
-    ["CAPT Connie Mistwalker", "secondlife:///app/agent/842e03a9-3f43-4bb8-a96f-b7ef622673c2/about"],
     ["CAPT Alli Eberdene", "secondlife:///app/agent/9ea0b3c7-6ea3-4438-848b-f5653c779720/about"],
+    ["CAPT Connie Mistwalker", "secondlife:///app/agent/842e03a9-3f43-4bb8-a96f-b7ef622673c2/about"],
+    ["CDR Josephine Fairport", "secondlife:///app/agent/ac150339-a503-4721-abef-7278544bb4ea/about"],
+    ["LT Lara Croft", "secondlife:///app/agent/b5dfac24-56bb-4f53-849e-7ec7bc1cfa59/about"],
     ["HMCS Jesse Hall", "secondlife:///app/agent/573d5a7d-a0e1-4acb-8dbf-a8e49f202ef1/about"],
     ["ABH2 Emily Strudel", "secondlife:///app/agent/1b0f7acd-272c-4e36-9aa6-dcfee0dc056c/about"]
   ]
