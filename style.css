@@ -15,9 +15,11 @@ body {
 }
 
 div.quote {
-  background-color: #aaa;
+  background-color: #ddd;
   font-style: italic;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
