@@ -16,6 +16,7 @@ body {
 
 div.quote {
   background-color: #ddd;
+  border: 2px solid black;
   border-radius: 5px;
   font-style: italic;
   margin-left: auto;
