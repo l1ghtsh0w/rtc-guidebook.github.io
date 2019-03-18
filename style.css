@@ -45,6 +45,9 @@ span.bold {
 span.italic {
   font-style: italic;
 }
+span.underline {
+  text-decoration: underline;
+}
 span.name {
   padding-left: 45px;
 }
