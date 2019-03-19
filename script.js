@@ -64,7 +64,7 @@ function writeQuotes()
 {
   let quote = document.getElementsByClassName("quote");
   let quoteNums = quote.length;
-  let shuffled = quotes.sort(() => 0.5 - Math.random());
+  var shuffled = quotes.sort(() => 0.5 - Math.random());
   let selected = shuffled.slice(0, quoteNums);
   for (let i=0; i<quoteNums; i++)
     quote[i].innerHTML = '<span class="i">"' + quotes[i][0] + '"</span><br />— ' + quotes[i][1];
