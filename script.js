@@ -63,7 +63,7 @@ var quotes = [
 function writeQuotes()
 {
   var quoteNums = document.getElementsByClassName("quote");
-  alert(quoteNums);
+  alert(quoteNums[0]);
   //var shuffled = quotes.sort(() => 0.5 - Math.random());
   //var selected = shuffled.slice(0, quoteNums);
 }
