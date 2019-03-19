@@ -1,5 +1,3 @@
-require("staff.js");
-
 var staff = [
   "SHIP'S OFFICER (SHIPO)",
   [
@@ -99,8 +97,7 @@ function changeContent(file)
 
   if (file == "staff")
   {
-    alert(staff.staff);
-    //writeStaff();
+    writeStaff();
   }
   if (file == "terms")
   {
