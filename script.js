@@ -62,8 +62,10 @@ var quotes = [
 
 function writeQuotes()
 {
-  var quoteNums = $("div[id^=quote]").length;
+  var quoteNums = document.getElementsByClassName("quote");
   alert(quoteNums);
+  //var shuffled = quotes.sort(() => 0.5 - Math.random());
+  //var selected = shuffled.slice(0, quoteNums);
 }
 
 function writeTerms()
