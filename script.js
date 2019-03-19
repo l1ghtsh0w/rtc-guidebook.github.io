@@ -64,12 +64,10 @@ function writeQuotes()
 {
   let quote = document.getElementsByClassName("quote");
   let quoteNums = quote.length;
-  alert(quoteNums.length);
-  quoteNums[0].innerHTML = "<b>This is a test</b>";
   let shuffled = quotes.sort(() => 0.5 - Math.random());
   let selected = shuffled.slice(0, quoteNums);
   for (let i=0; i<quoteNums; i++)
-    quoteNums[i].innerHTML = '<span class="i">"' + quotes[i][0] + '"</span><br />— ' + quotes[i][1];
+    quote[i].innerHTML = '<span class="i">"' + quotes[i][0] + '"</span><br />— ' + quotes[i][1];
 }
 
 function writeTerms()
