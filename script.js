@@ -63,10 +63,15 @@ var quotes = [
 function writeQuotes()
 {
   var quoteNums = document.getElementsByClassName("quote");
-  //alert(quoteNums[0]);
+  alert(quoteNums.length);
+  /*
   quoteNums[0].innerHTML = "<b>This is a test</b>";
-  //var shuffled = quotes.sort(() => 0.5 - Math.random());
-  //var selected = shuffled.slice(0, quoteNums);
+  var shuffled = quotes.sort(() => 0.5 - Math.random());
+  var selected = shuffled.slice(0, quoteNums);
+  var i;
+  for (i=0; i<quoteNums; i++)
+    quoteNums[i].innerHTML = '<span class="i">"' + quotes[i][0] + '"</span><br />— ' + quotes[i][1];
+  */
 }
 
 function writeTerms()
