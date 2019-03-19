@@ -46,6 +46,26 @@ var terms = [
   ["Peanut Butters", "Enlisted Service Uniform"]
 ];
 
+var quotes = [
+  ["It is the function of the Navy to carry the war to the enemy so that it is not fought on U.S. soil.", "Fleet Admiral Chester W. Nimitz"],
+  ["For much of my life, the Navy was the only world I knew. It is still the world I know best and love most.", "Captain John McCain"],
+  ["I wouldn't trade those 10 years for anything. The Navy taught me a lot of things. It molded me as a man, and I made a lot of wonderful friends.", "GM1 Ernest Borgnine"],
+  ["I was in World Ward II; I cried when they took me in the Navy. That's the last time I cried.", "Don Rickles"],
+  ["A captain of the Navy ought to be a man of strong and well connected sense, with a tolerable good education, a gentleman, as well as a seaman both in theory and practice.", "John Paul Jones"],
+  ["... Without a respectable Navy, alas America!", "John Paul Jones"],
+  ["I wish to have no connection with any ship that does not sail fast for I intend to go in harm's way.", "John Paul Jones"],
+  ["We have met the enemy and they are ours...", "Oliver Hazard Perry"],
+  ["A good Navy is not a provocation to war. It is the surest guarantee of peace.", "President Theodore Roosevelt"],
+  ["The Navy has both a tradition and a future - and we look with pride and confidence in both directions.", "Admiral George Anderson"],
+  ["I can imagine no more rewarding a career. And any man who may be asked in this century what he did to make his life worthwhile, I think can respond with a good deal of pride and satisfaction: 'I served in the United States Navy.'", "President John F. Kennedy"]
+]
+
+function writeQuotes()
+{
+  var quoteNums = $("div[id^=quote]").length;
+  alert(quoteNums);
+}
+
 function writeTerms()
 {
   var termLen = terms.length;
@@ -103,4 +123,6 @@ function changeContent(file)
   {
     writeTerms();
   }
+
+  writeQuotes();
 }
