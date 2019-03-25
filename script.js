@@ -112,10 +112,10 @@ function writeStaff()
   for (i=0; i<staffLen; i+=2)
   {
     var memLen = staff[i+1].length;
-    newHtml = newHtml + "<p class='staff'><span class='b'>" + staff[i] + "</span><br/>";
+    newHtml = newHtml + "<p class='staff'>" + staff[i] + "<br />";
     for (j=0; j<memLen; j++)
     {
-      newHtml += "<span class='name'><a href='" + staff[i+1][j][1] + "'>" + staff[i+1][j][0] + "</a></span><br/>";
+      newHtml += "<span class='name'><a href='" + staff[i+1][j][1] + "'>" + staff[i+1][j][0] + "</a></span><br />";
     }
     newHtml += "</p>";
   }
