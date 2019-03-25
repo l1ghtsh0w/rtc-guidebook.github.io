@@ -64,7 +64,7 @@ const vsn = 1;
 
 function loaded()
 {
-  document.getElementById("version").innerText = "v." + string(vsn);
+  //document.getElementById("version").innerText = "v." + string(vsn);
   writeQuotes();
 }
 
