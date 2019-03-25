@@ -60,11 +60,16 @@ var quotes = [
   ["I can imagine no more rewarding a career. And any man who may be asked in this century what he did to make his life worthwhile, I think can respond with a good deal of pride and satisfaction: 'I served in the United States Navy.'", "President John F. Kennedy"]
 ]
 
-var vsn = 1;
+const vsn = "1";
+
+function loaded()
+{
+  document.getElementById("version").innerText = "v." + str(vsn);
+  writeQuoutes();
+}
 
 function writeQuotes()
 {
-  // document.getElementById("version").innerText = "v." + str(vsn);
   let quote = document.getElementsByClassName("quote");
   let quoteNums = quote.length;
   var shuffled = quotes.sort(() => 0.5 - Math.random());
