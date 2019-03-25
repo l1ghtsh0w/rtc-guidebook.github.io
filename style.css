@@ -119,13 +119,21 @@ ul.scnd {
   text-align: center;
 }
 
-.options {
+.mainOptions {
   cursor: pointer;
   font-family: Quicksand;
   font-size: 12pt;
   font-weight: bold;
   line-height: 25px;
   padding-top: 0px;
+}
+
+.subOptions {
+  cursor: pointer;
+  font-family: quicksand;
+  font-size: 10pt;
+  font-weight: bold;
+  line-height: 20px;
 }
 
 .row:after {
@@ -151,7 +159,7 @@ ul.scnd {
 }
 
 
-/*-- IDs --*/
+/*-- IDS --*/
 #content {
   font-family: Quicksand;
   font-size: 14pt;
