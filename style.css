@@ -51,6 +51,9 @@ p.policy {
   padding-left: 20px;
   padding-top: -10px;
 }
+p.term {
+  line-height: 0px;
+}
 
 span.b {
   font-weight: bold;
@@ -107,10 +110,6 @@ ul.scnd {
   margin-bottom: 2%;
   padding: 10px;
   text-align: center;
-}
-
-.indent {
-  padding-left: 25px;
 }
 
 .options {
