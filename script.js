@@ -62,7 +62,7 @@ var quotes = [
 
 function loaded()
 {
-  writeQuotes;
+  writeQuotes();
 }
 
 function writeQuotes()
