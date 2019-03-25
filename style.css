@@ -58,11 +58,11 @@ span.b {
 span.i {
   font-style: italic;
 }
-span.u {
-  text-decoration: underline;
-}
 span.name {
   padding-left: 45px;
+}
+span.u {
+  text-decoration: underline;
 }
 
 ul {
@@ -110,7 +110,7 @@ ul.scnd {
 }
 
 .indent {
-  text-indent: 25px;
+  padding-left: 25px;
 }
 
 .options {
