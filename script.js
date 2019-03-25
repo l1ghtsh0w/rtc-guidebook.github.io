@@ -1,4 +1,4 @@
-var staff = [
+const staff = [
   "SHIP'S OFFICER (SHIPO)",
   [
     ["CDR Natalya Petrova", "secondlife:///app/agent/613997e7-f260-47ee-b63e-9110dbc0d130/about"]
@@ -33,7 +33,7 @@ var staff = [
   ]
 ]
 
-var terms = [
+const terms = [
   ["USNSL", "US Navy in SL"],
   ["IC", "In-Character"],
   ["OOC", "Out-Of-Character"],
@@ -46,7 +46,7 @@ var terms = [
   ["Peanut Butters", "Enlisted Service Uniform"]
 ];
 
-var quotes = [
+const quotes = [
   ["It is the function of the Navy to carry the war to the enemy so that it is not fought on U.S. soil.", "Fleet Admiral Chester W. Nimitz"],
   ["For much of my life, the Navy was the only world I knew. It is still the world I know best and love most.", "Captain John McCain"],
   ["I wouldn't trade those 10 years for anything. The Navy taught me a lot of things. It molded me as a man, and I made a lot of wonderful friends.", "GM1 Ernest Borgnine"],
@@ -60,18 +60,35 @@ var quotes = [
   ["I can imagine no more rewarding a career. And any man who may be asked in this century what he did to make his life worthwhile, I think can respond with a good deal of pride and satisfaction: 'I served in the United States Navy.'", "President John F. Kennedy"]
 ]
 
+const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
 function loaded()
 {
+  writeTime();
   writeQuotes();
+}
+
+function writeTime()
+{
+  var d = new Date();
+  var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+  var offset = -7;
+  var pst = utc + (3600000 * offset)
+  var nd = new Date(pst);
+
+  var dt = days[nd.getDay()] + ", " + nd.getDate().toString() + months[nd.getMonth()] + nd.getFullYear().toString();
+
+  document.getElementById("dateTime").innerHTML = dt;
 }
 
 function writeQuotes()
 {
-  let quote = document.getElementsByClassName("quote");
-  let quoteNums = quote.length;
+  var quote = document.getElementsByClassName("quote");
+  var quoteNums = quote.length;
   var shuffled = quotes.sort(() => 0.5 - Math.random());
-  let selected = shuffled.slice(0, quoteNums);
-  for (let i=0; i<quoteNums; i++)
+  var selected = shuffled.slice(0, quoteNums);
+  for (var i=0; i<quoteNums; i++)
     quote[i].innerHTML = '<span class="i">"' + quotes[i][0] + '"</span><br />— ' + quotes[i][1];
 }
 
@@ -126,7 +143,6 @@ function changeContent(file)
     }
   }
   rawFile.send(null);
-
   if (file == "staff")
   {
     writeStaff();
@@ -135,6 +151,6 @@ function changeContent(file)
   {
     writeTerms();
   }
-
   writeQuotes();
 }
+
