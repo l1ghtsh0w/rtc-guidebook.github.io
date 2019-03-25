@@ -77,7 +77,7 @@ function writeTerms()
   var newHtml = "";
   for (i=0; i<termLen; i++)
   {
-    newHtml += "<p><span class='b'>" + terms[i][0] + "</span> - " + terms[i][1] + "</p>";
+    newHtml += "<p class='term'><span class='b'>" + terms[i][0] + "</span> - " + terms[i][1] + "</p>";
   }
   document.getElementById("terms").innerHTML = newHtml;
 }
