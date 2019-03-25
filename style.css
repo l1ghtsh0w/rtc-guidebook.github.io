@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+
+/*-- TAGS --*/
 a {
   color: black;
   font-weight: normal;
@@ -76,7 +78,28 @@ ul.scnd {
 }
 
 
-/* Style the header */
+/*-- CLASSES --*/
+.center {
+  text-align: center;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.left {
+  background-color: #f1f1f1;
+  height: auto;
+  margin-right: 2%;
+  text-align: center;
+  width: 20%;
+}
+.column.right {
+  background-color: #f1f1f1;
+  font-family: ModernSans;
+  width: 78%;
+}
+
 .header {
   background-color: #efefef;
   font-family: USN-Stencil;
@@ -85,28 +108,18 @@ ul.scnd {
   padding: 10px;
   text-align: center;
 }
-.subheader {
-  font-family: Bombard;
-  font-size: 28pt;
+
+.indent {
+  text-indent: 25px;
 }
 
-.column {
-  float: left;
-  padding: 10px;
-}
-/* Left  column */
-.column.left {
-  background-color: #f1f1f1;
-  height: auto;
-  margin-right: 2%;
-  text-align: center;
-  width: 20%;
-}
-/* Right column */
-.column.right {
-  background-color: #f1f1f1;
-  font-family: ModernSans;
-  width: 78%;
+.options {
+  cursor: pointer;
+  font-family: Quicksand;
+  font-size: 12pt;
+  font-weight: bold;
+  line-height: 25px;
+  padding-top: 0px;
 }
 
 .row:after {
@@ -115,10 +128,9 @@ ul.scnd {
   display: table;
 }
 
-@media (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
+.subheader {
+  font-family: Bombard;
+  font-size: 28pt;
 }
 
 .title {
@@ -132,15 +144,8 @@ ul.scnd {
   font-size: 28pt;
 }
 
-.options {
-  cursor: pointer;
-  font-family: Quicksand;
-  font-size: 12pt;
-  font-weight: bold;
-  line-height: 25px;
-  padding-top: 0px;
-}
 
+/*-- IDs --*/
 #content {
   font-family: Quicksand;
   font-size: 14pt;
@@ -150,6 +155,10 @@ ul.scnd {
   text-align: justify;
 }
 
-.center {
-  text-align: center;
+
+/*-- OTHER --*/
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
 }

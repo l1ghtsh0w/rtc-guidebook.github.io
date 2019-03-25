@@ -77,7 +77,7 @@ function writeTerms()
   var newHtml = "";
   for (i=0; i<termLen; i++)
   {
-    newHtml += "<span class='b'>" + terms[i][0] + "</span> - " + terms[i][1] + "<br />";
+    newHtml += "<span class='b indent'>" + terms[i][0] + "</span> - " + terms[i][1] + "<br />";
   }
   document.getElementById("terms").innerHTML = newHtml;
 }
