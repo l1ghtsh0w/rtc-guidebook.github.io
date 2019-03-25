@@ -144,7 +144,7 @@ ul.scnd {
 }
 
 .version {
-  display: inherit;
+  display: none;
   font-size: 14pt;
   line-height: 0px;
   text-align: center;
