@@ -64,7 +64,7 @@ var vsn = 1;
 
 function writeQuotes()
 {
-  document.getElementById("version").innerText = "v." + str(vsn);
+  // document.getElementById("version").innerText = "v." + str(vsn);
   let quote = document.getElementsByClassName("quote");
   let quoteNums = quote.length;
   var shuffled = quotes.sort(() => 0.5 - Math.random());
