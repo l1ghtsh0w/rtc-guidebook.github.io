@@ -105,7 +105,8 @@ ul.scnd {
 
 .dateTime {
   display: inherit;
-  font-size: 18pt;
+  font-family: Bombard;
+  font-size: 22pt;
   text-align: center;
 }
 
