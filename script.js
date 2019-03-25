@@ -62,13 +62,7 @@ var quotes = [
 
 function loaded()
 {
-  fileNew = ".git/COMMIT_EDITMSG";
-  rawFile.open("GET", fileNew, false);
-  rawFile.onreadystatechange = function ()
-  {
-    document.getElementById("version").innerHTML = rawFile.responseText.toString();
-  }
-  writeQuotes();
+  writeQuotes;
 }
 
 function writeQuotes()
@@ -110,6 +104,10 @@ function writeStaff()
   }
   document.getElementById("staff").innerHTML = newHtml;
 }
+
+
+
+
 
 function changeContent(file)
 {

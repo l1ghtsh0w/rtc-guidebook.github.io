@@ -103,6 +103,12 @@ ul.scnd {
   width: 78%;
 }
 
+.dateTime {
+  display: none;
+  font-size: 18pt;
+  text-align: center;
+}
+
 .header {
   background-color: #efefef;
   font-family: USN-Stencil;
@@ -141,13 +147,6 @@ ul.scnd {
 }
 .title.big {
   font-size: 28pt;
-}
-
-.version {
-  display: inherit;
-  font-size: 14pt;
-  line-height: 0px;
-  text-align: center;
 }
 
 
