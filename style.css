@@ -143,6 +143,12 @@ ul.scnd {
   font-size: 28pt;
 }
 
+.version {
+  font-size: 10pt;
+  text-align: center;
+  display: inherit;
+}
+
 
 /*-- IDs --*/
 #content {
