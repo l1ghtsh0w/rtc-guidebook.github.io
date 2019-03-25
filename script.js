@@ -60,7 +60,7 @@ var quotes = [
   ["I can imagine no more rewarding a career. And any man who may be asked in this century what he did to make his life worthwhile, I think can respond with a good deal of pride and satisfaction: 'I served in the United States Navy.'", "President John F. Kennedy"]
 ]
 
-const vsn = "1";
+const vsn = "2";
 
 function loaded()
 {
