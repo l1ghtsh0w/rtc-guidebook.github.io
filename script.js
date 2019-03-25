@@ -60,11 +60,14 @@ var quotes = [
   ["I can imagine no more rewarding a career. And any man who may be asked in this century what he did to make his life worthwhile, I think can respond with a good deal of pride and satisfaction: 'I served in the United States Navy.'", "President John F. Kennedy"]
 ]
 
-const vsn = "2";
-
 function loaded()
 {
-  document.getElementById("version").innerHTML = "v " + vsn;
+  fileNew = ".git/COMMIT_EDITMSG";
+  rawFile.open("GET", fileNew, false);
+  rawFile.onreadystatechange = function ()
+  {
+    document.getElementById("version").innerHTML = rawFile.responseText.toString();
+  }
   writeQuotes();
 }
 
@@ -107,7 +110,6 @@ function writeStaff()
   }
   document.getElementById("staff").innerHTML = newHtml;
 }
-
 
 function changeContent(file)
 {
