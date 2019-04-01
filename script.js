@@ -89,23 +89,25 @@ function writeQuotes()
   var shuffled = quotes.sort(() => 0.5 - Math.random());
   var selected = shuffled.slice(0, quoteNums);
   for (var i=0; i<quoteNums; i++)
-    quote[i].innerHTML = '<span class="i">"' + quotes[i][0] + '"</span><br />— ' + quotes[i][1];
+    quote[i].innerHTML = '<em>' + quotes[i][0] + '"</em><br />— ' + quotes[i][1];
 }
 
 function writeTerms()
 {
+  // Change HTML to definition list?
   var termLen = terms.length;
   var i;
   var newHtml = "";
   for (i=0; i<termLen; i++)
   {
-    newHtml += "<p class='term'><span class='b'>" + terms[i][0] + "</span> - " + terms[i][1] + "</p>";
+    newHtml += "<p class='term'><strong>" + terms[i][0] + "</strong> - " + terms[i][1] + "</p>";
   }
   document.getElementById("terms").innerHTML = newHtml;
 }
 
 function writeStaff()
 {
+  // Expand variable names
   var staffLen = staff.length;
   var i, j;
   var newHtml = "";
@@ -121,10 +123,6 @@ function writeStaff()
   }
   document.getElementById("staff").innerHTML = newHtml;
 }
-
-
-
-
 
 function changeContent(file)
 {
