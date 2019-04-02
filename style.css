@@ -152,6 +152,14 @@ ul.scnd {
 }
 
 
+/*-- NEW --*/
+.contentTitle {
+  font-family: Comfortaa;
+  font-size: 28pt;
+  font-weight: bold;
+  text-align: center;
+}
+
 /*-- IDS --*/
 #content {
   font-family: Quicksand;
