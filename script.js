@@ -34,16 +34,16 @@ const staff = [
 ]
 
 const terms = [
-  ["USNSL", "US Navy in SL"],
-  ["IC", "In-Character"],
-  ["OOC", "Out-Of-Character"],
-  ["NSO", "Naval Station Oryx"],
-  ["NSTC", "Naval Service Training Command"],
-  ["RTC", "Recruit Training Command"],
-  ["RDC", "Recruit Division Commander"],
-  ["PQS", "Personal Qualification Standard"],
-  ["NWU", "Navy Working Uniform"],
-  ["Peanut Butters", "Enlisted Service Uniform"]
+  ["USNSL", "US Navy in SL", "the United States Navy in Second Life."],
+  ["IC", "In-Character", "when playing your character in a role play."],
+  ["OOC", "Out-Of-Character", "when NOT playing your character in a role play."],
+  ["NSO", "Naval Station Oryx", "a USNSL base on the continent of Corsica."],
+  ["NSTC", "Naval Service Training Command", "where training for the USNSL occurs."],
+  ["RTC", "Recruit Training Command", "the name of the training program for those applying to enlisted service."],
+  ["RDC", "Recruit Division Commander", "teachers and those in charge at RTC."],
+  ["PQS", "Personal Qualification Standard", "a collection of training objectives."],
+  ["NWU", "Navy Working Uniform", "typical, everyday uniform for a working sailor."],
+  ["Peanut Butters", "Enlisted Service Uniform", "normal, more formal, uniform for enlisted sailors."]
 ];
 
 const quotes = [
@@ -83,7 +83,7 @@ function writeTerms()
   var newHtml = "<dd>";
   for (i=0; i<termLen; i++)
   {
-    newHtml += "<p><dt>" + terms[i][0] + "</dt><dd>" + terms[i][1] + "</dd></p>";
+    newHtml += "<p><dt>" + terms[i][0] + "</dt><dd>" + terms[i][1] + "; " + terms[i][2] + "</dd></p>";
   }
   newHtml += "</dt>";
   document.getElementById("terms").innerHTML = newHtml;
