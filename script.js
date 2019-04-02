@@ -83,7 +83,7 @@ function writeTerms()
   var newHtml = "<dd>";
   for (i=0; i<termLen; i++)
   {
-    newHtml += "<dt>" + terms[i][0] + "</dt><dd>" + terms[i][1] + "</dd>";
+    newHtml += "<p><dt>" + terms[i][0] + "</dt><dd>" + terms[i][1] + "</dd></p>";
   }
   newHtml += "</dt>";
   document.getElementById("terms").innerHTML = newHtml;
