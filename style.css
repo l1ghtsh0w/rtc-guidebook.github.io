@@ -39,6 +39,10 @@ div.quote {
   text-align: center;
   width: 70%;
 }
+div.quote.pol {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
 
 hr {
   width: 50%;
