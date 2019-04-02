@@ -89,7 +89,7 @@ function writeQuotes()
   var shuffled = quotes.sort(() => 0.5 - Math.random());
   var selected = shuffled.slice(0, quoteNums);
   for (var i=0; i<quoteNums; i++)
-    quote[i].innerHTML = '<em>' + quotes[i][0] + '"</em><br />— ' + quotes[i][1];
+    quote[i].innerHTML = '<em>"' + quotes[i][0] + '"</em><br />— ' + quotes[i][1];
 }
 
 function writeTerms()
