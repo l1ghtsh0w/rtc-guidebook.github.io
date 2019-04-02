@@ -60,26 +60,9 @@ const quotes = [
   ["I can imagine no more rewarding a career. And any man who may be asked in this century what he did to make his life worthwhile, I think can respond with a good deal of pride and satisfaction: 'I served in the United States Navy.'", "President John F. Kennedy"]
 ]
 
-const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
-const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
 function loaded()
 {
-  writeTime();
   writeQuotes();
-}
-
-function writeTime()
-{
-  var d = new Date();
-  var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-  var offset = -7;
-  var pst = utc + (3600000 * offset)
-  var nd = new Date(pst);
-
-  var dt = days[nd.getDay()] + ", " + nd.getDate().toString() + months[nd.getMonth()] + nd.getFullYear().toString();
-
-  document.getElementById("dateTime").innerHTML = dt;
 }
 
 function writeQuotes()
@@ -97,11 +80,12 @@ function writeTerms()
   // Change HTML to definition list?
   var termLen = terms.length;
   var i;
-  var newHtml = "";
+  var newHtml = "<dd>";
   for (i=0; i<termLen; i++)
   {
-    newHtml += "<p class='term'><strong>" + terms[i][0] + "</strong> - " + terms[i][1] + "</p>";
+    newHtml += "<dt>" + terms[i][0] + "</dt><dd>" + terms[i][1] + "</dd>";
   }
+  newHtml += "</dt>";
   document.getElementById("terms").innerHTML = newHtml;
 }
 
