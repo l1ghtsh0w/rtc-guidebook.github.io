@@ -40,23 +40,6 @@ div.quote {
   width: 70%;
 }
 
-h1.bookHeader {
-  font-family: USN-Stencil;
-  font-size: 38pt;
-  text-align: center;
-}
-h1.bookSubheader {
-  font-family: Bombard;
-  font-size: 28pt;
-  text-align: center;
-}
-
-header {
-  background-color: #efefef;
-  margin-bottom: 2%;
-  padding: 10px;
-}
-
 hr {
   width: 50%;
 }
@@ -121,6 +104,22 @@ ul.scnd {
   width: 76%;
 }
 
+.dateTime {
+  display: none;
+  font-family: Bombard;
+  font-size: 22pt;
+  text-align: center;
+}
+
+.header {
+  background-color: #efefef;
+  font-family: USN-Stencil;
+  font-size: 38pt;
+  margin-bottom: 2%;
+  padding: 10px;
+  text-align: center;
+}
+
 .options {
   cursor: pointer;
   font-family: Quicksand;
@@ -134,6 +133,11 @@ ul.scnd {
   clear: both;
   content: "";
   display: table;
+}
+
+.subheader {
+  font-family: Bombard;
+  font-size: 28pt;
 }
 
 .title {
