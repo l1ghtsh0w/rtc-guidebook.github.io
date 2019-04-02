@@ -35,8 +35,8 @@ const staff = [
 
 const terms = [
   ["USNSL", "US Navy in SL", "the United States Navy in Second Life."],
-  ["IC", "In-Character", "when playing your character in a role play."],
-  ["OOC", "Out-Of-Character", "when NOT playing your character in a role play."],
+  ["IC", "In-Character", "when acting as your character in a role play."],
+  ["OOC", "Out-Of-Character", "when NOT acting as your character in a role play."],
   ["NSO", "Naval Station Oryx", "a USNSL base on the continent of Corsica."],
   ["NSTC", "Naval Service Training Command", "where training for the USNSL occurs."],
   ["RTC", "Recruit Training Command", "the name of the training program for those applying to enlisted service."],
@@ -83,7 +83,7 @@ function writeTerms()
   var newHtml = "<dd>";
   for (i=0; i<termLen; i++)
   {
-    newHtml += "<p><dt>" + terms[i][0] + "</dt><dd>" + terms[i][1] + "; " + terms[i][2] + "</dd></p>";
+    newHtml += "<p><dt>" + terms[i][0] + "</dt><dd>" + terms[i][1] + ";<br/>" + terms[i][2] + "</dd></p>";
   }
   newHtml += "</dt>";
   document.getElementById("terms").innerHTML = newHtml;
