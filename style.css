@@ -99,6 +99,7 @@ ul.scnd {
 }
 .column.left {
   background-color: #f1f1f1;
+  float: left;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -107,6 +108,7 @@ ul.scnd {
 }
 .column.right {
   background-color: #f1f1f1;
+  float: right;
   font-family: ModernSans;
   margin-left: auto;
   margin-right: auto;
