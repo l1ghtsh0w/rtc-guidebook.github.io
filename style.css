@@ -101,7 +101,6 @@ ul.scnd {
   background-color: #f1f1f1;
   float: left;
   height: auto;
-  margin-left: auto;
   text-align: center;
   width: 300px;
 }
@@ -109,7 +108,6 @@ ul.scnd {
   background-color: #f1f1f1;
   float: right;
   font-family: ModernSans;
-  margin-right: auto;
   width: 700px;
 }
 
@@ -149,6 +147,11 @@ ul.scnd {
   clear: both;
   content: "";
   display: table;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .subheader {
