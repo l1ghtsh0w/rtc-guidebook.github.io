@@ -13,8 +13,7 @@ a {
 body {
   background-color: #ccc;
   overflow: scroll;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 20px 300px 20px 300px;
 }
 
 dl {
@@ -99,15 +98,14 @@ ul.scnd {
 .column.left {
   background-color: #f1f1f1;
   height: auto;
-  margin-left: 300px;
-  margin-right: 20px;
+  margin-right: 2%;
   text-align: center;
-  width: 214px;
+  width: 22%;
 }
 .column.right {
   background-color: #f1f1f1;
   font-family: ModernSans;
-  width: 736px;
+  width: 76%;
 }
 
 .dateTime {
@@ -121,12 +119,9 @@ ul.scnd {
   background-color: #efefef;
   font-family: USN-Stencil;
   font-size: 38pt;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 2%;
   padding: 10px;
   text-align: center;
-  width: 968px;
 }
 
 .invis {
@@ -140,10 +135,6 @@ ul.scnd {
   font-weight: bold;
   line-height: 25px;
   padding-top: 0px;
-}
-
-.row {
-  /*margin-left: 300px;*/
 }
 
 .row:after {
@@ -187,11 +178,10 @@ ul.scnd {
   text-align: justify;
 }
 
+
 /*-- OTHER --*/
-/*
 @media (max-width: 600px) {
   .column.side, .column.middle {
     width: 100%;
   }
 }
-*/
