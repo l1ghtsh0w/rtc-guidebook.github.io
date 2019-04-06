@@ -124,6 +124,10 @@ ul.scnd {
   text-align: center;
 }
 
+.invis {
+  display: none;
+}
+
 .options {
   cursor: pointer;
   font-family: Quicksand;
