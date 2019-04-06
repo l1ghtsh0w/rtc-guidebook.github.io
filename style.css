@@ -13,9 +13,7 @@ a {
 body {
   background-color: #ccc;
   overflow: scroll;
-  padding: 20px 20px 20px 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 20px 300px 20px 300px;
 }
 
 dl {
@@ -100,17 +98,14 @@ ul.scnd {
 .column.left {
   background-color: #f1f1f1;
   height: auto;
+  margin-right: 2%;
   text-align: center;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 22%;
 }
 .column.right {
   background-color: #f1f1f1;
   font-family: ModernSans;
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 76%;
 }
 
 .dateTime {
@@ -125,15 +120,8 @@ ul.scnd {
   font-family: USN-Stencil;
   font-size: 38pt;
   margin-bottom: 2%;
-  margin-left: auto;
-  margin-right: auto;
   padding: 10px;
   text-align: center;
-  width: 1000px;
-}
-
-.invis {
-  display: none;
 }
 
 .options {
@@ -149,13 +137,6 @@ ul.scnd {
   clear: both;
   content: "";
   display: table;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.row {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .subheader {
@@ -190,7 +171,7 @@ ul.scnd {
   font-weight: normal;
   padding-left: 25px;
   padding-right: 25px;
-  text-align: left;
+  text-align: justify;
 }
 
 
