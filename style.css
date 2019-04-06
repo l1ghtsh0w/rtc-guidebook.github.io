@@ -180,7 +180,7 @@ ul.scnd {
 
 
 /*-- OTHER --*/
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .column.side, .column.middle {
     width: 100%;
   }
