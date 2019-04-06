@@ -94,12 +94,11 @@ ul.scnd {
 }
 
 .column {
-  /* float: left; */
+  float: left;
   padding: 10px;
 }
 .column.left {
   background-color: #f1f1f1;
-  float: left;
   height: auto;
   text-align: center;
   width: 300px;
