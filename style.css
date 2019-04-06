@@ -97,7 +97,6 @@ ul.scnd {
 .column.left {
   background-color: #f1f1f1;
   height: auto;
-  margin-right: 2%;
   text-align: center;
   width: 214px;
 }
@@ -140,7 +139,7 @@ ul.scnd {
 }
 
 .row {
-  margin-left: auto;
+  margin-left: 308px;
   margin-right: auto;
 }
 
