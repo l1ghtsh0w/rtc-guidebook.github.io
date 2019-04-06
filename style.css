@@ -185,10 +185,11 @@ ul.scnd {
   text-align: justify;
 }
 
-
 /*-- OTHER --*/
+/*
 @media (max-width: 600px) {
   .column.side, .column.middle {
     width: 100%;
   }
 }
+*/
