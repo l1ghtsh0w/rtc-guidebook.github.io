@@ -41,6 +41,7 @@ const terms = [
   ["NSTC", "Naval Service Training Command", "where training for the USNSL occurs."],
   ["RTC", "Recruit Training Command", "the name of the training program for those applying to enlisted service."],
   ["RDC", "Recruit Division Commander", "teachers and those in charge at RTC."],
+  ["DEP", "Delayed Entry Program", "a program to introduce new applicants to the basics, in preparation for RTC."]
   ["PQS", "Personal Qualification Standard", "a collection of training objectives."],
   ["NWU", "Navy Working Uniform", "typical, everyday uniform for a working sailor."],
   ["Peanut Butters", "Enlisted Service Uniform", "normal, more formal, uniform for enlisted sailors."]
