@@ -144,13 +144,11 @@ ul.scnd {
   margin-right: auto;
 }
 
-/*
 .row:after {
   clear: both;
   content: "";
   display: table;
 }
-*/
 
 .subheader {
   font-family: Bombard;
