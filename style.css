@@ -126,6 +126,10 @@ ul.scnd {
   width: 968px;
 }
 
+.invis {
+  display: none;
+}
+
 .options {
   cursor: pointer;
   font-family: Quicksand;
