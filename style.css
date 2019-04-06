@@ -100,12 +100,12 @@ ul.scnd {
   height: auto;
   margin-right: 2%;
   text-align: center;
-  width: 200px;
+  width: 22%;
 }
 .column.right {
   background-color: #f1f1f1;
   font-family: ModernSans;
-  width: 600px;
+  width: 76%;
 }
 
 .dateTime {
