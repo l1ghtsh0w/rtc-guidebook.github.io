@@ -91,7 +91,7 @@ ul.scnd {
 }
 
 .column {
-  float: left;
+  /*float: left;*/
   padding: 10px;
 }
 .column.left {
