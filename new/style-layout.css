@@ -1,0 +1,30 @@
+.wrapper {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.header {
+  float: left;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.wrapright {
+  float: left;
+  width: 100%;
+}
+
+.right {
+  margin-left: 260px;
+}
+
+.left {
+  float: left;
+  width: 250px;
+  margin-left: -100%;
+}
+
+.body {
+  padding: 0px;
+  margin: 0px;
+}

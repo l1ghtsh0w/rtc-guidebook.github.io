@@ -59,11 +59,8 @@ p.term {
   line-height: 5px;
 }
 
-span.b, p.staff, p.article {
+p.staff, p.article {
   font-weight: bold;
-}
-span.i {
-  font-style: italic;
 }
 span.name, span.articleText {
   font-weight: normal;

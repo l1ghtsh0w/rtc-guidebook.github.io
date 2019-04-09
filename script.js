@@ -78,21 +78,19 @@ function writeQuotes()
 
 function writeTerms()
 {
-  // Change HTML to definition list?
   var termLen = terms.length;
   var i;
-  var newHtml = "<dd>";
+  var newHtml = "<dl>";
   for (i=0; i<termLen; i++)
   {
     newHtml += "<p><dt>" + terms[i][0] + "</dt><dd>" + terms[i][1] + ";<br/>" + terms[i][2] + "</dd></p>";
   }
-  newHtml += "</dt>";
+  newHtml += "</dl>";
   document.getElementById("terms").innerHTML = newHtml;
 }
 
 function writeStaff()
 {
-  // Expand variable names
   var staffLen = staff.length;
   var i, j;
   var newHtml = "";

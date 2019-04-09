@@ -1,0 +1,107 @@
+/* DEFINITION LISTS */
+dl {
+  list-style-position: outside;
+  text-indent: 0px;
+}
+dt {
+  font-weight: bold;
+  padding-left: 25px;
+}
+dd {
+  padding-left: 10px;
+}
+
+/* HORIZONTAL LINE */
+hr {
+  width: 50%;
+}
+
+/* PARAGRAPHS */
+p {
+  text-indent: 25px;
+}
+
+/* UNORDERED LISTS */
+ul {
+  list-style-position: outside;
+  text-indent: 0px;
+}
+ul.frst {
+  list-style-type: disc;
+}
+ul.scnd {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+/* TOP HEADER */
+.header {
+  background-color: #efefef;
+  font-family: USN-Stencil;
+  font-size: 38pt;
+  padding: 10px;
+  text-align: center;
+}
+
+/* RIGHT COLUMN */
+.right {
+  background-color: #f1f1f1;
+  font-family: ModernSans;
+}
+
+/* LEFT COLUMN */
+.left {
+  background-color: #f1f1f1;
+  height: auto;
+  text-align: center;
+}
+
+/* CONTENT SECTION TITLE */
+.content-title {
+  font-family: Comfortaa;
+  font-size: 28pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* CONTENT SECTION TEXT */
+#content-section {
+  font-family: Quicksand;
+  font-size: 14pt;
+  font-weight: normal;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+}
+
+/* NAVIGATION TITLE */
+.navigation-title {
+  font-family: Comfortaa;
+  font-size: 19pt;
+  font-weight: bold;
+}
+
+/* NAVIGATION OPTIONS */
+.navigation-options {
+  cursor: pointer;
+  font-family: Quicksand;
+  font-size: 12pt;
+  font-weight: bold;
+  line-height: 25px;
+  /*padding-top: 0px;*/
+}
+
+/* QUOTE SECTIONS */
+.quote-section {
+  background-color: #ddd;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 12pt;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  width: 70%;
+  display: none; /* REMOVE WHEN FINISHED */
+}
+
