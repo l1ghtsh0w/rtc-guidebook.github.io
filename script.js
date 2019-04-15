@@ -27,7 +27,7 @@ const staff = [
   [
     ["CAPT Alli Eberdene", "secondlife:///app/agent/9ea0b3c7-6ea3-4438-848b-f5653c779720/about"],
     ["CAPT Connie Mistwalker", "secondlife:///app/agent/842e03a9-3f43-4bb8-a96f-b7ef622673c2/about"],
-    ["CDR Bambi Baxter", "secondlife:///app/agent/f30b1bcc-6e0e-4d5f-a28c-9d4ef0dd8a94/about"],
+    // ["CDR Bambi Baxter", "secondlife:///app/agent/f30b1bcc-6e0e-4d5f-a28c-9d4ef0dd8a94/about"],
     ["HMCS Jesse Hall", "secondlife:///app/agent/573d5a7d-a0e1-4acb-8dbf-a8e49f202ef1/about"],
     ["ABH2 Emily Strudel", "secondlife:///app/agent/1b0f7acd-272c-4e36-9aa6-dcfee0dc056c/about"]
   ]
@@ -40,11 +40,10 @@ const terms = [
   ["NSO", "Naval Station Oryx", "a USNSL base on the continent of Corsica."],
   ["NSTC", "Naval Service Training Command", "where training for the USNSL occurs."],
   ["RTC", "Recruit Training Command", "the name of the training program for those applying to enlisted service."],
+  ["Sailorization", "The goal of RTC", "the process of being transformed from a civilian to a basically trained sailor."],
   ["RDC", "Recruit Division Commander", "teachers and those in charge at RTC."],
-  ["DEP", "Delayed Entry Program", "a program to introduce new applicants to the basics, in preparation for RTC."]
-  ["PQS", "Personal Qualification Standard", "a collection of training objectives."],
-  ["NWU", "Navy Working Uniform", "typical, everyday uniform for a working sailor."],
-  ["Peanut Butters", "Enlisted Service Uniform", "normal, more formal, uniform for enlisted sailors."]
+  ["DEP", "Delayed Entry Program", "a program to introduce new applicants to the basics, in preparation for RTC."],
+  ["PQS", "Personal Qualification Standard", "a collection of training objectives."]
 ];
 
 const quotes = [
