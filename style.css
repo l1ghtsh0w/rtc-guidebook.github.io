@@ -112,6 +112,10 @@ ul.scnd {
   text-align: center;
 }
 
+.example {
+  text-indent: 50px;
+}
+
 .header {
   background-color: #efefef;
   font-family: USN-Stencil;
