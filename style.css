@@ -114,6 +114,8 @@ ul.scnd {
 
 .example {
   font-style: italic;
+  margin-bottom: 0px;
+  /*padding-bottom: 0px;*/
   padding-left: 25px;
 }
 
