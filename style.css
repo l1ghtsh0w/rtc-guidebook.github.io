@@ -138,6 +138,7 @@ ul.scnd {
 }
 
 .invis {
+  cursor: default;
   display: none;
 }
 
