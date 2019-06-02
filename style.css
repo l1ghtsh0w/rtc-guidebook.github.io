@@ -2,16 +2,6 @@
   box-sizing: border-box;
 }
 
-span.navLink {
-  color: black;
-  text-decoration: none;
-}
-span.navLink:hover {
-  color: darkblue;
-  text-decoration: underline;
-}
-
-
 /*-- TAGS --*/
 a {
   color: black;
@@ -19,7 +9,6 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: darkblue;
   text-decoration: underline;
 }
 
@@ -81,6 +70,14 @@ span.name, span.articleText {
   padding-left: 45px;
 }
 span.u {
+  text-decoration: underline;
+}
+
+span.navLink {
+  color: black;
+  text-decoration: none;
+}
+span.navLink:hover {
   text-decoration: underline;
 }
 
