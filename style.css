@@ -13,7 +13,7 @@ a {
 body {
   background-color: #ccc;
   overflow: scroll;
-  padding: 20px 300px 20px 300px;
+  /*padding: 20px 300px 20px 300px;*/
 }
 
 dl {
