@@ -13,6 +13,7 @@ a {
 body {
   background-color: #ccc;
   overflow: scroll;
+  /*padding: 20px 300px 20px 300px;*/
   padding: 1% 15% 1% 15%;
 }
 
@@ -97,12 +98,14 @@ ul.scnd {
   height: auto;
   margin-right: 2%;
   text-align: center;
-  width: 22%;
+  /*width: 22%;*/
+  width: 200px;
 }
 .column.right {
   background-color: #f1f1f1;
   font-family: ModernSans;
-  width: 76%;
+  /*width: 76%;*/
+  width: 800px;
 }
 
 .dateTime {
