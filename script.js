@@ -1,18 +1,17 @@
 const staff = [
+  "COMMANDING OFFICER (CO)",
+  [
+    ["CAPT Natalya Petrova", "secondlife:///app/agent/613997e7-f260-47ee-b63e-9110dbc0d130/about"]
+  ],
   "SHIP'S OFFICER (SHIPO)",
   [
-    ["CDR Natalya Petrova", "secondlife:///app/agent/613997e7-f260-47ee-b63e-9110dbc0d130/about"]
+    ["LT Chayton Coursey", "secondlife:///app/agent/4919b983-1974-48fb-8b7a-cdb614c9998d/about"]
   ],
   "RECRUIT DIVISION COMMANDERS", 
   [
-    ["MACM Chester McFisticuffs", "secondlife:///app/agent/45883043-2dfa-4241-b8b1-64fb4318cb3c/about"],
+    ["CMC Chester McFisticuffs", "secondlife:///app/agent/45883043-2dfa-4241-b8b1-64fb4318cb3c/about"],
     ["MAC Curgus", "secondlife:///app/agent/8010c57b-3d1f-4f8b-a616-5cc4cfd03de6/about"],
     ["MAC Jax Texas", "secondlife:///app/agent/6fd4d99a-0c3d-43a3-ae64-74026bb0d1f8/about"]
-  ],
-  "PHYSICAL TRAINING AND SWIM COACH",
-  [
-    //["CAPT Alli Eberdene", "secondlife:///app/agent/9ea0b3c7-6ea3-4438-848b-f5653c779720/about"],
-    ["LTJG Antonio Tophat", "secondlife:///app/agent/d25cd2ce-3703-4ae2-89c2-9492a63b49b4/about"]
   ],
   "MARKSMANSHIP RANGE MASTER",
   [
@@ -21,7 +20,7 @@ const staff = [
   "MEDICAL OFFICER/STAFF",
   [
     ["CPT Chayton Coursey (US Army)", "secondlife:///app/agent/4919b983-1974-48fb-8b7a-cdb614c9998d/about"],
-    ["HM3 Sawyer Fallenwynter", "secondlife:///app/agent/f25b4a7e-dbbf-48f7-8ad7-7abda31e6bc9/about"]
+    ["ENS Sawyer Fallenwynter", "secondlife:///app/agent/f25b4a7e-dbbf-48f7-8ad7-7abda31e6bc9/about"]
   ],
   "INSTRUCTORS",
   [
