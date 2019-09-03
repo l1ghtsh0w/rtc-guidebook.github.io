@@ -5,7 +5,7 @@ const staff = [
   ],
   "SHIP'S OFFICER (SHIPO)",
   [
-    ["LT Chayton Coursey (US Army)", "secondlife:///app/agent/4919b983-1974-48fb-8b7a-cdb614c9998d/about"]
+    ["LT Chayton Coursey", "secondlife:///app/agent/4919b983-1974-48fb-8b7a-cdb614c9998d/about"]
   ],
   "RECRUIT DIVISION COMMANDERS", 
   [
@@ -19,7 +19,7 @@ const staff = [
   ],
   "MEDICAL OFFICER/STAFF",
   [
-    ["CPT Chayton Coursey", "secondlife:///app/agent/4919b983-1974-48fb-8b7a-cdb614c9998d/about"],
+    ["LT Chayton Coursey", "secondlife:///app/agent/4919b983-1974-48fb-8b7a-cdb614c9998d/about"],
     ["ENS Sawyer Fallenwynter", "secondlife:///app/agent/f25b4a7e-dbbf-48f7-8ad7-7abda31e6bc9/about"]
   ],
   "INSTRUCTORS",
