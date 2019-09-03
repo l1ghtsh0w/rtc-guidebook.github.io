@@ -40,6 +40,7 @@ const terms = [
   ["NSTC", "Naval Service Training Command", "where training for the USNSL occurs."],
   ["RTC", "Recruit Training Command", "the name of the training program for those applying to enlisted service."],
   ["Sailorization", "The goal of RTC", "the process of being transformed from a civilian to a basically trained sailor."],
+  ["LRDC", "Lead Recruit Division Commander", "the leading/commanding RDC at RTC."],
   ["RDC", "Recruit Division Commander", "teachers and those in charge at RTC."],
   ["DEP", "Delayed Entry Program", "a program to introduce new applicants to the basics, in preparation for RTC."],
   ["PQS", "Personal Qualification Standard", "a collection of training objectives."]
