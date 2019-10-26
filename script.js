@@ -10,7 +10,7 @@ const staff = [
   "RECRUIT DIVISION COMMANDERS", 
   [
     ["CMC Chester McFisticuffs [LRDC]", "secondlife:///app/agent/45883043-2dfa-4241-b8b1-64fb4318cb3c/about"],
-    ["MAC Curgus", "secondlife:///app/agent/8010c57b-3d1f-4f8b-a616-5cc4cfd03de6/about"],
+    //["MAC Curgus", "secondlife:///app/agent/8010c57b-3d1f-4f8b-a616-5cc4cfd03de6/about"],
     ["MAC Jax Texas", "secondlife:///app/agent/6fd4d99a-0c3d-43a3-ae64-74026bb0d1f8/about"]
   ],
   "MARKSMANSHIP RANGE MASTER",
