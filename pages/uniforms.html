@@ -26,6 +26,12 @@
         font-style: normal;
       }
     </style>
+    <script>
+      var links = document.links;
+      for (var i=0; i<links.length; i++) {
+        links[i].target = "_blank";
+      }
+    </script>
   </head>
   <body>
     <ul class="rank">
