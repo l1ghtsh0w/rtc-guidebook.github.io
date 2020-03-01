@@ -1,6 +1,11 @@
 <html>
 	<head>
 		<title>Example Form</title>
+		<script>
+			function autoFill(id) {
+				id.value = "Filled.";
+			}
+		</script>
 	</head>
 	<body>
 		<center>
@@ -8,6 +13,7 @@
 			<form id="mainForm">
 				<label for="fName">First Name</label><br />
 				<input type="text" id="fName" name="fName"><br />
+				<input type="button" value="Click to Fill" onclick="autoFill(this)">
 				<label for="lName">Last Name</label><br />
 				<input type="text" id="lName" name="lName"><br />
 				<br /><br />
