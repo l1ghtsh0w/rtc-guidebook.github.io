@@ -20,25 +20,33 @@
 				"Spring",
 				"77379"
 			];
-			function getFormStuff() {
+			function autoFill() {
 				var inputTags = document.getElementsByTagName("input")
 
 				inputTags.forEach(function(tag) {
-					
-				})
-			}
-			function autoFill() {
-				document.getElementById("fName").value = document.getElementById("fName").id;
+					var tagId = tag.id;
+					var index = 0;
+					fields.forEach(function(field) {
+						if (field.includes(tagId)) {
+							document.getElementById(tagId).value = values[index];
+							return;
+						}
+						else {
+							index += 1;
+						}
+					});
+				});
 			}
 		</script>
 	</head>
 	<body>
 		<center>
 			<br /><br /><br /><br />
+			<input type="button" value="Click to Fill" onclick="autoFill()">
+			<br /><br /><br /><br />
 			<form id="mainForm">
 				<label for="fName">First Name</label><br />
 				<input type="text" id="fName" name="fName"><br />
-				<input type="button" value="Click to Fill" onclick="autoFill()"><br />
 				<label for="lName">Last Name</label><br />
 				<input type="text" id="lName" name="lName"><br />
 				<br /><br />
