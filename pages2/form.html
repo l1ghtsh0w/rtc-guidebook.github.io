@@ -2,8 +2,33 @@
 	<head>
 		<title>Example Form</title>
 		<script>
+			var fields = [
+				["firstname", "first name", "fname", "first"],
+				["lastname", "last name", "lname", "last"],
+				["name", "full name", "fullname"],
+				["address", "street", "streetaddress", "street address"],
+				["state"],
+				["city"],
+				["zip", "zipcode", "zip code"]
+			];
+			var values = [
+				"Chris",
+				"Collins",
+				"Chris Collins",
+				"8110 Forest Breeze Ln.",
+				"Texas",
+				"Spring",
+				"77379"
+			];
+			function getFormStuff() {
+				var inputTags = document.getElementsByTagName("input")
+
+				inputTags.forEach(function(tag) {
+					
+				})
+			}
 			function autoFill() {
-				document.getElementById("fName").value = "Filled.";
+				document.getElementById("fName").value = document.getElementById("fName").id;
 			}
 		</script>
 	</head>
