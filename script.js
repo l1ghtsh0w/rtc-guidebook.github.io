@@ -7,9 +7,12 @@ const staff = [
   [
     ["LT Chayton Coursey", "secondlife:///app/agent/4919b983-1974-48fb-8b7a-cdb614c9998d/about"]
   ],
-  "RECRUIT DIVISION COMMANDERS", 
+  "RECRUIT DIVISION COMMANDERS (RDC)", 
   [
     ["CMC Chester McFisticuffs [LRDC]", "secondlife:///app/agent/45883043-2dfa-4241-b8b1-64fb4318cb3c/about"],
+    ["HMCS Jesse Hall", "secondlife:///app/agent/573d5a7d-a0e1-4acb-8dbf-a8e49f202ef1/about"],
+    ["BM1 Mia Trinity", "secondlife:///app/agent/efb5607c-d594-4e0d-8442-74da73c6a1c5/about"],
+    ["NC2 Emily Strudel", "secondlife:///app/agent/1b0f7acd-272c-4e36-9aa6-dcfee0dc056c/about"]
     //["MAC Curgus", "secondlife:///app/agent/8010c57b-3d1f-4f8b-a616-5cc4cfd03de6/about"],
   ],
   "MARKSMANSHIP RANGE MASTER",
@@ -18,15 +21,17 @@ const staff = [
   ],
   "MEDICAL OFFICER/STAFF",
   [
+    ["LT Chayton Coursey", "secondlife:///app/agent/4919b983-1974-48fb-8b7a-cdb614c9998d/about"]
     ["ENS Sawyer Fallenwynter", "secondlife:///app/agent/f25b4a7e-dbbf-48f7-8ad7-7abda31e6bc9/about"]
   ],
   "INSTRUCTORS",
   [
-    ["CAPT Alli Eberdene", "secondlife:///app/agent/9ea0b3c7-6ea3-4438-848b-f5653c779720/about"],
     ["CAPT Connie Mistwalker", "secondlife:///app/agent/842e03a9-3f43-4bb8-a96f-b7ef622673c2/about"],
+    ["CAPT Alli Eberdene", "secondlife:///app/agent/9ea0b3c7-6ea3-4438-848b-f5653c779720/about"],
+    ["CAPT Chrissy Dehner", "secondlife:///app/agent/ed5ab8db-1775-4a9e-a3db-06c0416f29ef/about"],
     ["CDR Bambi Baxter", "secondlife:///app/agent/f30b1bcc-6e0e-4d5f-a28c-9d4ef0dd8a94/about"],
-    ["HMCS Jesse Hall", "secondlife:///app/agent/573d5a7d-a0e1-4acb-8dbf-a8e49f202ef1/about"],
-    ["NC2 Emily Strudel", "secondlife:///app/agent/1b0f7acd-272c-4e36-9aa6-dcfee0dc056c/about"]
+    ["CDR Dave Gaffer", "secondlife:///app/agent/9ff1dc8a-1cb8-4fd9-9e4a-58675f80c2ea/about"],
+    ["LT Amara Quandry". "secondlife:///app/agent/aa1d463d-4341-4475-b61d-533218b7cacd/about"]
   ]
 ]
 
