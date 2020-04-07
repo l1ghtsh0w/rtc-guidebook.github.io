@@ -17,7 +17,6 @@ body {
   overflow: scroll;
   /*padding: 20px 300px 20px 300px;*/
   padding: 1% 15% 1% 15%;
-  word-spacing: 0.3px;
 }
 
 dl {
@@ -30,7 +29,6 @@ dt {
 }
 dd {
   padding-left: 10px;
-  word-spacing: 0.3px;
 }
 
 div.quote {
@@ -192,7 +190,6 @@ ul.scnd {
   padding-left: 25px;
   padding-right: 25px;
   text-align: justify;
-  word-spacing: 0.3px;
 }
 
 
