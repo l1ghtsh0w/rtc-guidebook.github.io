@@ -31,7 +31,7 @@ const staff = [
     ["CAPT Chrissy Dehner", "secondlife:///app/agent/ed5ab8db-1775-4a9e-a3db-06c0416f29ef/about"],
     ["CDR Bambi Baxter", "secondlife:///app/agent/f30b1bcc-6e0e-4d5f-a28c-9d4ef0dd8a94/about"],
     ["CDR Dave Gaffer", "secondlife:///app/agent/9ff1dc8a-1cb8-4fd9-9e4a-58675f80c2ea/about"],
-    ["LT Amara Quandry". "secondlife:///app/agent/aa1d463d-4341-4475-b61d-533218b7cacd/about"]
+    ["LT Amara Quandry", "secondlife:///app/agent/aa1d463d-4341-4475-b61d-533218b7cacd/about"]
   ]
 ]
 
