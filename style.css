@@ -208,7 +208,7 @@ ul.scnd {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 240px;
   background-color: #ddd;
   color: #000;
   text-align: center;
@@ -220,7 +220,7 @@ ul.scnd {
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  margin-left: -60px;
+  /*margin-left: -120px;*/
 }
 
 .tooltip:hover .tooltiptext {
