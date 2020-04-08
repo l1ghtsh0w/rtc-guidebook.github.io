@@ -199,3 +199,28 @@ ul.scnd {
     width: 100%;
   }
 }
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip Text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #cccccc;
+  color: #000000;
+  text-align: center;
+  padding: 5px 0;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+  
