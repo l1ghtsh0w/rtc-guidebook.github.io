@@ -11,10 +11,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.navLink:hover {
-  font-weight: normal;
-  text-decoration: underline;
-}
 
 body {
   background-color: #ccc;
