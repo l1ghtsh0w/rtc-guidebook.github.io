@@ -13,7 +13,6 @@ const staff = [
     ["HMCS Jesse Hall", "secondlife:///app/agent/573d5a7d-a0e1-4acb-8dbf-a8e49f202ef1/about"],
     ["BM1 Mia Trinity", "secondlife:///app/agent/efb5607c-d594-4e0d-8442-74da73c6a1c5/about"],
     ["NC2 Emily Strudel", "secondlife:///app/agent/1b0f7acd-272c-4e36-9aa6-dcfee0dc056c/about"]
-    //["MAC Curgus", "secondlife:///app/agent/8010c57b-3d1f-4f8b-a616-5cc4cfd03de6/about"],
   ],
   "MARKSMANSHIP RANGE MASTER",
   [
@@ -21,7 +20,7 @@ const staff = [
   ],
   "MEDICAL OFFICER/STAFF",
   [
-    ["LT Chayton Coursey", "secondlife:///app/agent/4919b983-1974-48fb-8b7a-cdb614c9998d/about"]
+    ["LT Chayton Coursey", "secondlife:///app/agent/4919b983-1974-48fb-8b7a-cdb614c9998d/about"],
     ["ENS Sawyer Fallenwynter", "secondlife:///app/agent/f25b4a7e-dbbf-48f7-8ad7-7abda31e6bc9/about"]
   ],
   "INSTRUCTORS",
