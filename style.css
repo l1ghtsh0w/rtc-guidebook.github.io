@@ -204,20 +204,24 @@ ul.scnd {
 .tooltip {
   position: relative;
   display: inline-block;
+  border-bottom: 1px dotted black;
 }
 
-/* Tooltip Text */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #cccccc;
-  color: #000000;
+  background-color: black;
+  color: #fff;
   text-align: center;
+  border-radius: 6px;
   padding: 5px 0;
-  bottom: 90%;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
   left: 50%;
   margin-left: -60px;
-  z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
