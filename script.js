@@ -64,6 +64,18 @@ const quotes = [
 
 function loaded()
 {
+  var screenWidth = screen.width;
+  if (screenWidth >= 1300)
+  {
+    document.getElementsByClassName(colLeft).width = 26%;
+    document.getElementsByClassName(colRight).width = 72%;
+  }
+  else
+  {
+    document.getElementsByClassName(colLeft).width = 18%;
+    document.getElementsByClassName(colRight).width = 50%;
+  }
+
   writeQuotes();
 }
 
